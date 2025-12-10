@@ -70,7 +70,7 @@ li:hover {
 }
 #formul-header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     
@@ -138,6 +138,7 @@ input {
         border-radius: 50px;
         height: 36px;
         width: 179px;
+        margin: 25px 5px 25px;
     }
 
     form #login-button:hover {}
