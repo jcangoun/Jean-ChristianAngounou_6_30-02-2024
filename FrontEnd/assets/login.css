@@ -1,6 +1,11 @@
+body {
+    margin: 50px 10px;
+    display: flex;
+    flex-direction: column;
+}
 #formul-header {
     display: flex;
-    margin: 50px;
+    /* margin: 50px; */
 }
 
 #fourmul-header nav {
@@ -8,4 +13,7 @@
 }
     button {
         background-color: #1D6154 ;
+        border-radius: 50px;
+        height: 36px;
+        width: 179px;
     }
