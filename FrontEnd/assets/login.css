@@ -1,13 +1,76 @@
 body {
-    margin: 50px 10px;
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 0;
-    /* width: 100%; */
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/** end reset css**/
+body {
+	max-width: 1140px;
+	margin:auto;
+	font-family: 'Work Sans' ;
+	font-size: 14px;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 50px 0
+}
+section {
+	margin: 50px 0
+}
+
+h1{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Syne';
+	font-size: 22px;
+	font-weight: 800;
+	color: #B1663C
+}
+
+h1 > span {
+	font-family: 'Work Sans';
+	font-size:10px;
+	letter-spacing: 0.1em;
+;
+}
+
+h2{
+	font-family: 'Syne';
+	font-weight: 700;
+	font-size: 30px;
+	color: #1D6154
+}
+nav ul {
+	display: flex;
+	align-items: center;
+	list-style-type: none;
+
+}
+nav li {
+	padding: 0 10px;
+	font-size: 1.2em;
+}
+
+li:hover {
+	color: #B1663C;
 }
 #formul-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
     
@@ -20,6 +83,17 @@ body {
 }
 
 #formul-header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+h1 {
+    font-family: 'Syne';
+    font-size: 22px;
+    font-weight: 800;
+    color: #B1663C;
+}
+nav ul {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -43,12 +117,16 @@ form {
     align-items: center;
 
 }
+form h2 {
+    color: #1D6154;
+}
 form #forgotten-password {
     display: flex;
     justify-content: center;
+    text-decoration: underline;
 }
 
-label {
+form label {
     float: left;
 }
 input {
@@ -61,6 +139,9 @@ input {
         height: 36px;
         width: 179px;
     }
+
+    form #login-button:hover {}
+
     footer {
         display: flex;
         justify-content: end;
