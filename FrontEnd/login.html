@@ -11,7 +11,24 @@
     <script src="login.js" defer></script>
 </head>
 <body>
+
     <header id="formul-header">
+        <h1 id="formul-header-title">Sophie Bluel 
+            <span>Architecte d'intérieur</span>
+        </h1>
+        <nav>
+            <ul>
+                <li>projets</li>
+                <li>contact</li>
+                <li>login</li>
+                <li>
+                    <img src="./assets/icons/instagram.png" alt="Instagram">
+                </li>
+            </ul>
+        </nav>
+</header>
+
+    <!-- <header id="formul-header">
         <h1 id="formul-header-title">Sophie Bluel Architecte
             <span>Architecte s'ingénieur</span>
         </h1>
@@ -23,17 +40,16 @@
                 <img src="./assets/icons/instagram.png" alt="Instagram">
             </ul>
         </nav>
-    </header>
+    </header> -->
     <main>
         <h1>login</h1>
         <form action="#">
             <label for="email">E-mail</label>
             <input type="email">
-
             <label for="password">Mot de passe</label>
             <input type="password">
 
-            <button type="submit">Se connecter</button>
+            <button id="login-button" type="submit">Se connecter</button>
             <div id="forgotten-password"> Mot de passe oublié</div>
         </form>
     </main>

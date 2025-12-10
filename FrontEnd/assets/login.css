@@ -2,18 +2,66 @@ body {
     margin: 50px 10px;
     display: flex;
     flex-direction: column;
+    flex: 1 1 0;
+    /* width: 100%; */
 }
 #formul-header {
     display: flex;
-    /* margin: 50px; */
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    
+}
+#formul-header-title {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
 }
 
-#fourmul-header nav {
-    color: red;
+#formul-header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
-    button {
+nav ul li {
+    list-style: none;
+}
+main {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+main h1 { 
+    
+}
+form {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+form #forgotten-password {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    float: left;
+}
+input {
+    width: 379px;
+    height: 51px;
+}
+ form #login-button {
         background-color: #1D6154 ;
         border-radius: 50px;
         height: 36px;
         width: 179px;
+    }
+    footer {
+        display: flex;
+        justify-content: end;
     }
