@@ -135,6 +135,14 @@ form #forgotten-password {
 form label {
     float: left;
 }
+#email {
+    position: relative;
+    right: 170px;
+}
+#password {
+position: relative;
+    right: 145px;
+}
 input {
     width: 379px;
     height: 51px;
