@@ -68,6 +68,9 @@ nav li {
 li:hover {
 	color: #B1663C;
 }
+main {
+    margin: 0 250px;
+}
 #formul-header {
     display: flex;
     justify-content: space-between;
@@ -87,7 +90,7 @@ li:hover {
     flex-direction: row;
     align-items: center;
 }
-h1 {
+h2 {
     font-family: 'Syne';
     font-size: 22px;
     font-weight: 800;
@@ -107,8 +110,11 @@ main {
     align-items: center;
 
 }
-main h1 { 
+/* h1 { 
     
+} */
+h1 span {
+    font-size: 10px;
 }
 form {
     
@@ -132,6 +138,7 @@ form label {
 input {
     width: 379px;
     height: 51px;
+    margin: 5px 15px 25px;
 }
  form #login-button {
         background-color: #1D6154 ;
